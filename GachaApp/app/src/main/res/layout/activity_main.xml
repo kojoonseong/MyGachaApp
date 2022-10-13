@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가챠 머신"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="등급 확률"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SS 1% / S 3% / A 16% / B 35% / C 45%"
+        android:textSize="20sp"
+        android:textColor="@color/teal_200"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SS"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:background="@drawable/ss"
+            android:id="@+id/tv_1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:background="@drawable/s"
+            android:id="@+id/tv_2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:background="@drawable/a"
+            android:id="@+id/tv_3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:background="@drawable/b"
+            android:id="@+id/tv_4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:background="@drawable/c"
+            android:id="@+id/tv_5"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:text="5회 뽑기"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/btn_gacha"/>
+
+</LinearLayout>
